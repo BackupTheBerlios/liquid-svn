@@ -1,0 +1,26 @@
+[Color Scheme]
+Name=Liquid Plus
+activeBackground=215,231,249
+activeBlend=226,240,255
+activeForeground=0,0,0
+activeTitleBtnBg=175,214,255
+alternateBackground=238,246,255
+background=246,245,244
+buttonBackground=215,231,249
+buttonForeground=0,0,0
+contrast=7
+foreground=0,0,0
+frame=215,231,249
+handle=246,245,244
+inactiveBackground=246,245,244
+inactiveBlend=250,249,248
+inactiveForeground=102,102,102
+inactiveFrame=246,245,244
+inactiveHandle=246,245,244
+inactiveTitleBtnBg=218,238,255
+linkColor=0,0,192
+selectBackground=169,209,255
+selectForeground=3,3,3
+visitedLinkColor=128,0,128
+windowBackground=255,255,255
+windowForeground=0,0,0

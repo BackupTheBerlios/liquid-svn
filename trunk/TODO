@@ -1,0 +1,13 @@
+ KWin deco:
+
+ 01) Make a better kwin deco. (partially done)
+ 02) Support for KDE 3.3 custom buttons.
+--------------------------------------------------------
+ Widget Engine:
+ 01) Remove the polish routines.
+ 02) Write a better coloring routine.
+
+--------------------------------------------------------
+ Misc :
+
+--------------------------------------------------------

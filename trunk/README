@@ -1,0 +1,34 @@
+History:
+The original Liquid theme was made by Daniel M. Duley a.k.a Mosfet and is still available around as mosfet's liquid . This version is a fork of the 0.9.6 branch and a fork is neccesary because:
+
+1) Mosfet has left active kde development. 
+2) Mosfet cannot be held responsible for the damage that i create with his code base. :)
+3) No one else seems to be interested in liquid.
+4) Given the above conditions i cannot take the name of liquid .
+
+P.S. Mosfet did NOT in any way choose me, neither have I bribed him nor has he approved me nor has he seen my changes. I am just doing a harmless fork.
+
+(For all those who want a copy of the original mosfets code base, i have kept 0.9.6-pre4  publicly available , altough i cannot in any way vouch that it is unmodified coz it comes from my attic.)
+
+Credits :
+Mosfet for the underlying code
+Thomas Lübking for a lot of help
+David Johnson for the example window decoration
+
+License:
+The original mosfet code is BSD licensed. My changes are GPLed, so its more or less a mixed bunch.
+
+Note:
+Due to some issues my build system is messed up. Please follow these steps to compile.
+To compile type:
+make -f Makefile.cvs
+./configure 
+make 
+su -c "make install"
+
+As an additional note uninstall all versions of Liquid ( and reinstall it ) before trying this out. I have already made enough mess of it while bringing out this fork.
+
+In case you get messages like KDE wants automake-1.8, found automake-1.6 this step might help you out :
+rm -rf admin/ acinclude.m4 aclocal.m4 autom4te.cache/ 
+cp $(kde-config --prefix)/share/apps/kapptemplate/admin/ . (Alternatively, get the admin directory with which your kde was compiled upon)
+Now compile with the above steps.

@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE KDevPrjSession>
+<KDevPrjSession>
+ <DocsAndViews NumberOfDocuments="2" >
+  <Doc0 NumberOfViews="1" URL="file:/home/sarath/src/style_kwin/liquid-0.9.7/widget-engine/embeddata.h" >
+   <View0 line="219" Type="???" >
+    <AdditionalSettings Top="2" Width="962" Attach="1" Height="521" Left="2" MinMaxMode="0" />
+   </View0>
+  </Doc0>
+  <Doc1 NumberOfViews="1" URL="file:/home/sarath/src/style_kwin/liquid-0.9.7/widget-engine/liquid.cpp" >
+   <View0 line="180" Type="???" >
+    <AdditionalSettings Top="2" Width="962" Attach="1" Height="521" Left="2" MinMaxMode="0" />
+   </View0>
+  </Doc1>
+ </DocsAndViews>
+ <pluginList>
+  <kdevbookmarks>
+   <bookmarks/>
+  </kdevbookmarks>
+  <kdevdebugger>
+   <breakpointList/>
+  </kdevdebugger>
+ </pluginList>
+</KDevPrjSession>

@@ -1,0 +1,91 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>ConfigDialog</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ConfigDialog</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>310</width>
+            <height>95</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Config Dialog</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QCheckBox" row="1" column="0">
+            <property name="name">
+                <cstring>useShadowedText</cstring>
+            </property>
+            <property name="text">
+                <string>Use Shadowed Text</string>
+            </property>
+            <property name="whatsThis" stdset="0">
+                <string>Use this option to activate shadowed text, similiar to the Widget Engine's shadowed text feature</string>
+            </property>
+        </widget>
+        <widget class="QButtonGroup" row="0" column="0">
+            <property name="name">
+                <cstring>titlealign</cstring>
+            </property>
+            <property name="title">
+                <string>Title &amp;Alignment</string>
+            </property>
+            <property name="toolTip" stdset="0">
+                <string></string>
+            </property>
+            <property name="whatsThis" stdset="0">
+                <string>Use these buttons to set the alignment of the window title</string>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>AlignLeft</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Left</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string></string>
+                    </property>
+                </widget>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>AlignHCenter</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Center</string>
+                    </property>
+                    <property name="checked">
+                        <bool>true</bool>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string></string>
+                    </property>
+                </widget>
+                <widget class="QRadioButton">
+                    <property name="name">
+                        <cstring>AlignRight</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Right</string>
+                    </property>
+                    <property name="toolTip" stdset="0">
+                        <string></string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

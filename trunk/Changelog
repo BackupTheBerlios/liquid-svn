@@ -1,0 +1,10 @@
+0.2 Sarath Menon <s_menon at users dot sourceforge dot net>
+ - Renamed the package to liquid+.
+ - Beautified the config page to make it look more like the standard KDE config pages
+ - Started work on removing the polish routines.
+
+0.1 Sarath Menon <s_menon at users dot sourceforge dot net>
+ A rewritten kwin engine that works on KDE 3.2.x (Tried porting it but the kwin engine badly needed an update)
+ - The kcm module is depreciated in favor of the KStyle Config
+ - Transparency shifted to the kstyle server. (Yes, XRender works now)
+ - Misc : Fix of a few quirks in the widget engine
